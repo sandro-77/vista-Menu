@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="productos">
+        <meta name="keywords" content="Productos, seleccionar, platillos">
+        <meta name="author" content="Sandro Ramirez">
+        
+        <script src="style/bootstrap_5.3.0_swal2_faw6/bootstrap/js/bootstrap.bundle.min.js" type="text/javascript"></script>
+        <link href="style/bootstrap_5.3.0_swal2_faw6/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="style/bootstrap_5.3.0_swal2_faw6/fontawesome-free-6.4.0-web/css/all.css" rel="stylesheet" type="text/css"/>
+        
+        <link href="style/bootstrap_5.3.0_swal2_faw6/sweetalert2/sweetalert2.css" rel="stylesheet" type="text/css"/>
+        <script src="style/bootstrap_5.3.0_swal2_faw6/fontawesome-free-6.4.0-web/js/all.js" type="text/javascript"></script>
+        
+        <style>
+            .primero {
+                width: 50vh;
+                height: 40vh;
+                border-style: solid;
+                border-radius: 7px;
+                margin-left: 40px;
+                margin-right: 10px;
+                text-align: center;
+                background-color: #FEF3E2;
+            }
+            .segundo {
+                width: 50vh;
+                height: 40vh;
+                border-style: solid;
+                border-radius: 7px;
+                text-align: center;
+                background-color: #FEF3E2;
+            }
+            
+            .botones {
+                margin-top: 44px;
+            }
+            
+            h1 {
+                font-size: 80px;
+            }
+            
+            #cancelar {
+                text-decoration: none; 
+                color: #000;
+                font-size: 32px;
+            }
+            
+            .btn-secondary {
+                background-color: #FA812F; 
+                margin-top: 100px; 
+                margin-left: 70px;
+                padding-top: 8px;
+                padding-bottom: 8px;
+                padding-left: 30px;
+                padding-right: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>¿Como desea pagar?</h1>
+        <div class="botones d-flex">
+            <div class="primero" >
+                <h2>En efectivo</h2>
+                <img src="imagenes/efectivo.png" alt="" style="width: 25vh; height: 30vh; object-fit: contain; padding-bottom: 20px"/>
+            </div>
+            <div class="segundo" style="float: right;">
+                <h2>Con tarjeta</h2>
+                <img src="imagenes/tarjeta_credito.png" alt="" style="width: 70vh; height: 50vh; object-fit: contain; padding-bottom: 100px; padding-right: 130px"/>
+            </div>
+        </div>
+        <div class="d-flex">
+            <div class="col-7">
+                <button class="btn btn-secondary" type="button"><a href="segundavista.html" id="cancelar">Cancelar</a></button>
+            </div>
+            <div class="tercero">
+                <h1>Total a pagar</h1>
+                <h1 style="margin-left: 70px; color: #FA4032;">$ 580.00</h1>
+            </div>
+        </div>
+    </body>
+</html>
